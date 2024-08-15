@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>98.css example</title>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body id="selectable">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="desktop">
+          <div class="desktop-icons">
+            <div class="icon my-computer">
+              <img src="https://img.informer.com/icons/png/48/2873/2873700.png" alt="" />
+              <p>My Computer</p>
+            </div>
+
+            <div class="icon doom" window="">
+              <img style="width: 64px;" src="images/doom.png" alt="" />
+              <p>DOOM</p>
+            </div>
+
+            <div class="icon diablo" window="diablo">
+              <img style="width: 64px;" src="images/d1-icon.png" alt="" />
+              <p>Diablo</p>
+            </div>
+
+            <div class="icon my-documents" window="my-document">
+              <img src="https://66.media.tumblr.com/6ee194172c15584561b951ff258d9d1d/tumblr_odqaag4zd41vgs7gco3_75sq.png" alt="" />
+              <p>My Projects</p>
+            </div>
+
+
+
+
+
+          </div>
+
+
+          <div class="window doom-boot" style="width: 70%">
+            <div class="title-bar">
+              <div class="title-bar-text">DOOM</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button class="close" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <img src="images/doom-start-screen.gif" alt="" />
+            </div>
+          </div>
+
+
+
+          <!-- <div class="window my-computer-files" style="width: 300px">
+            <div class="title-bar">
+              <div class="title-bar-text">DOOM</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button class="close" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+
+            </div>
+          </div> -->
+
+          <!-- <div class="window" style="margin: 32px; width: 250px">
+                <div class="title-bar">
+                  <div class="title-bar-text">
+                    My First VB4 Program
+                  </div>
+
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button class="close" aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="window-body">
+                  <p>Hello, world!</p>
+                  <section class="field-row" style="justify-content: flex-end">
+                    <button class="close">OK</button>
+                    <button class="close">Cancel</button>
+                  </section>
+                </div>
+              </div> -->
+
+          <div class="dock">
+            <a class="start-btn" href="#0"><img src="images/start.png">Start</a>
+
+            <div class="dock-time">
+              <div class="tray-icons">
+					<img class="tray-icon" src="images/task-scheduler-16x16.png" title="Task Scheduler is not ready." onclick="showMessageBox({iconID: 'info', message: 'Good day to you!'})">
+					<img class="tray-icon" src="images/audio-okay-16x16.png" title="Volume" onclick="showMessageBox({iconID: 'info', message: 'Have a wonderful day!'})">
+				</div>
+              <span id="clock"></span>
+            </div>
+            <div class="start-menu">
+              <div class="title-container">
+                <div class="title">Windows<span>98</span></div>
+              </div>
+              <ul>
+                <li class="windows-update">Windows Update</li>
+                <hr />
+                <li class="programs">Programs</li>
+                <li class="favorites">Favorites</li>
+                <li class="documents">Documents</li>
+                <li class="settings">Settings</li>
+                <li class="find">Find</li>
+                <li class="help">Help</li>
+                <li class="run">Run...</li>
+                <hr />
+                <li class="log-off ok">Log Off</li>
+                <li class="shut-down ok">Shut Down...</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+  <script src="js/theme.js"></script>
+
+
+</body>
+</html>
