@@ -4,6 +4,13 @@
   <title>98.css example</title>
   <meta charset="UTF-8" />
 
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/global.css" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
@@ -21,16 +28,16 @@
 
 
 
-
+        <!-- Icons -->
 
         <div class="desktop">
           <div class="desktop-icons">
-            <div class="icon my-computer">
+            <div class="icon my-computer" window="my-computer">
               <img src="https://img.informer.com/icons/png/48/2873/2873700.png" alt="" />
               <p>My Computer</p>
             </div>
 
-            <div class="icon doom" window="">
+            <div class="icon doom" window="doom">
               <img style="width: 64px;" src="images/doom.png" alt="" />
               <p>DOOM</p>
             </div>
@@ -40,19 +47,36 @@
               <p>Diablo</p>
             </div>
 
-            <div class="icon my-documents" window="my-document">
+            <div class="icon my-documents" window="my-documents">
               <img src="https://66.media.tumblr.com/6ee194172c15584561b951ff258d9d1d/tumblr_odqaag4zd41vgs7gco3_75sq.png" alt="" />
               <p>My Projects</p>
             </div>
 
 
-
-
-
           </div>
 
 
-          <div class="window doom-boot" style="width: 70%">
+
+
+
+
+          <!--Windows pop Ups  -->
+
+          <div class="window my-computer" style="width: 300px">
+            <div class="title-bar">
+              <div class="title-bar-text">My Computer</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button class="close" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+
+            </div>
+          </div>
+
+          <div class="window doom" style="width: 70%">
             <div class="title-bar">
               <div class="title-bar-text">DOOM</div>
               <div class="title-bar-controls">
@@ -67,10 +91,9 @@
           </div>
 
 
-
-          <!-- <div class="window my-computer-files" style="width: 300px">
+          <div class="window my-documents" style="width: 300px">
             <div class="title-bar">
-              <div class="title-bar-text">DOOM</div>
+              <div class="title-bar-text">My Projects</div>
               <div class="title-bar-controls">
                 <button aria-label="Minimize"></button>
                 <button aria-label="Maximize"></button>
@@ -80,7 +103,11 @@
             <div class="window-body">
 
             </div>
-          </div> -->
+          </div>
+
+
+
+
 
           <!-- <div class="window" style="margin: 32px; width: 250px">
                 <div class="title-bar">
@@ -102,6 +129,9 @@
                   </section>
                 </div>
               </div> -->
+
+
+  <!--Start Menu  -->
 
           <div class="dock">
             <a class="start-btn" href="#0"><img src="images/start.png">Start</a>
@@ -137,6 +167,13 @@
 
 
         </div>
+
+        <div class="loading-screen">
+        <div class="floppy slide-out-top">
+          <span>BH.dev</span>
+          <img src="images/black-floppy.svg" alt="" />
+        </div>
+      </div>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

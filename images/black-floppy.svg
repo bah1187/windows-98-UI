@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 742.6 742.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #414042;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #03ed60;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <g id="Layer_1-2">
+          <g id="Floppy_disk_cassettes">
+            <path class="cls-1" d="M222.8,0v297.1h371.2V0H222.8ZM519.8,148.5v74.3h-74.2V74.2h74.2v74.2h0Z"/>
+            <rect class="cls-4" x="148.6" y="668.4" width="445.5" height="74.2"/>
+            <rect class="cls-3" x="148.6" y="371.4" width="445.5" height="297"/>
+            <rect x="445.6" y="74.3" width="74.2" height="148.6"/>
+            <rect x="148.6" width="74.2" height="297.1"/>
+            <polygon class="cls-2" points="668.3 74.3 668.3 0 594.1 0 594.1 297.1 148.6 297.1 148.6 0 0 0 0 742.6 148.6 742.6 148.6 371.4 594.1 371.4 594.1 742.6 742.6 742.6 742.6 74.3 668.3 74.3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

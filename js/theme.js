@@ -1,3 +1,10 @@
+
+// loading screen
+$( function() {
+  $('.loading-screen').delay(4000).fadeOut(400);
+} );
+
+
 $('.window').draggable();
 $('.icon').draggable();
 
